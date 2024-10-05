@@ -72,6 +72,7 @@ li a {
   background-color: #75e2e6;
   border: none;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .info {
@@ -116,6 +117,7 @@ li a {
   cursor: pointer;
   width: 100%;
   font-size: 1em;
+  border-radius: 20px;
 }
 
 .social-media{
