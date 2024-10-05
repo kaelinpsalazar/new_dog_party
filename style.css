@@ -4,6 +4,8 @@ body {
   padding: 0;
   background-color: #ffffff;
   color: #000000;
+  margin: 20px;
+  border: solid black;
 }
 
 header {
@@ -12,6 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: solid teal;
 }
 
 .logo {
@@ -76,11 +79,15 @@ li a {
   justify-content: space-evenly;
   padding: 50px 20px;
   background-color: #f0f0f0;
+  gap: 20px;
 }
 
 .dog-info {
   text-align: center;
   padding: 25px;
+  flex: 1; 
+  min-width: 250px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .dog-info img {
@@ -107,7 +114,7 @@ li a {
   color: #ffffff;
   border: none;
   cursor: pointer;
-  width: 250px;
+  width: 100%;
   font-size: 1em;
 }
 
