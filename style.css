@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+header {
+  background-color: #75e2e6;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #048eaa;
+  background-size: cover;
+  color: #ffffff;
+  background-image: url('assets/park.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  background-blend-mode: darken; 
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.hero img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 20px 0;
+  border:solid #048eaa
+  
+}
+
+.hero form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #75e2e6;
+  border: none;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+}
+
+.dog-info {
+  text-align: center;
+  padding: 25px;
+}
+
+.dog-info img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border:solid #048eaa
+}
+
+.dog-info h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.dog-info p {
+  font-size: 1em;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.dog-info button {
+  padding: 10px 20px;
+  background-color: #048eaa;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+  font-size: 1em;
+}
+
+.social-media{
+  padding: 15px 25px;
+  background-color: #048eaa;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  
+}
